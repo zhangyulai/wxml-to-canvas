@@ -114,6 +114,7 @@ class Draw {
       color = '#000',
       lineHeight = '1.4em',
       fontSize = 14,
+      fontFamily = 'sans-serif',
       textAlign = 'left',
       verticalAlign = 'top',
       backgroundColor = 'transparent'
@@ -126,7 +127,7 @@ class Draw {
 
     ctx.save()
     ctx.textBaseline = 'top'
-    ctx.font = `${fontSize}px sans-serif`
+    ctx.font = `${fontSize}px ${fontFamily}`
     ctx.textAlign = textAlign
 
     // 背景色
